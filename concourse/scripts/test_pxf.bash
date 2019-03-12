@@ -107,7 +107,7 @@ EOF
 	fi
 
   # Ping is called by gpinitsystem, which must be run by gpadmin
-	chmod u+s /bin/ping
+	# chmod u+s /bin/ping
 
 	# Install GPDB
 	install_gpdb_binary
